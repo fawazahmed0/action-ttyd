@@ -46,7 +46,7 @@ runs:
         wget -O ../ttyd https://github.com/tsl0922/ttyd/releases/download/1.7.4/ttyd.x86_64
         shasum ../ttyd | grep b30a18c6b2f8a479904ca88bf78d6312f03a0108
         chmod 777 ../ttyd
-        ../ttyd -c ${{ inputs.credentials }} -p 8391 -a -W bash &
+        ../ttyd -c ${{ inputs.credentials }} -P 5 -p 8391 -a -W bash &
         cloudflared tunnel --url http://localhost:8391 > ../mylog.txt 2>&1 &
 
     - name: Install dependencies and run commands in macOS
