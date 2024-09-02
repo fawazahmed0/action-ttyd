@@ -1,6 +1,6 @@
 # action-debug
 
-**Note:** This action has been deprecated in favour of [action-debug-vscode](https://github.com/fawazahmed0/action-debug)
+**Note:** This action has been deprecated in favour of [action-debug-vscode](https://github.com/fawazahmed0/action-debug-vscode)
 
 Remote Access your GitHub Actions via Browser Based Terminal.
 Built using [ttyd](https://github.com/tsl0922/ttyd) and [Cloudflare tunnel](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/do-more-with-tunnels/trycloudflare/)
